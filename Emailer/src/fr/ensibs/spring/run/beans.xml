@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="addressBook" class="fr.ensibs.spring.impl.AddressBook">
+	</bean>
+	
+	<bean id="textEditor" class="fr.ensibs.spring.impl.TextEditor">
+            <property name="spellChecker" ref="spellCheckerFR"/>
+	</bean>
+	
+	<bean id="eMailer" class="fr.ensibs.spring.impl.Emailer">
+            <property name="addressBook" ref="addressBook"/>
+            <property name="textEditor" ref="textEditor"/>
+            <property name="encrypt" ref="encrpyt"/>
+	</bean>
+	
+        <bean id="encrpyt" class="fr.ensibs.spring.impl.Encrypt">
+	</bean>
+        
+	<bean id="spellCheckerFR" class="fr.ensibs.spring.impl.SpellChecker">
+	</bean>
+
+</beans>

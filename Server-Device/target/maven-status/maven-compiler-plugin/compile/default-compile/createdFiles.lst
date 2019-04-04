@@ -1,0 +1,5 @@
+fr/ensibs/device/ServerDevice.class
+fr/ensibs/device/DeviceManager.class
+fr/ensibs/device/DefaultDeviceManager.class
+fr/ensibs/device/Device.class
+fr/ensibs/device/Status.class

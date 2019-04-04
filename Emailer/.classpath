@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/ourkia/Downloads/Spring-OSGI/Rendu Projet Spring/lib-base/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/ourkia/Downloads/Spring-OSGI/Rendu Projet Spring/lib-base/javax.mail.jar"/>
+	<classpathentry kind="lib" path="/Users/ourkia/Downloads/Spring-OSGI/Rendu Projet Spring/lib-base/org.springframework.asm-3.1.0.RC1.jar"/>
+	<classpathentry kind="lib" path="/Users/ourkia/Downloads/Spring-OSGI/Rendu Projet Spring/lib-base/org.springframework.beans-3.1.0.RC1.jar"/>
+	<classpathentry kind="lib" path="/Users/ourkia/Downloads/Spring-OSGI/Rendu Projet Spring/lib-base/org.springframework.context-3.1.0.RC1.jar"/>
+	<classpathentry kind="lib" path="/Users/ourkia/Downloads/Spring-OSGI/Rendu Projet Spring/lib-base/org.springframework.context.support-3.1.0.RC1.jar"/>
+	<classpathentry kind="lib" path="/Users/ourkia/Downloads/Spring-OSGI/Rendu Projet Spring/lib-base/org.springframework.core-3.1.0.RC1.jar"/>
+	<classpathentry kind="lib" path="/Users/ourkia/Downloads/Spring-OSGI/Rendu Projet Spring/lib-base/org.springframework.expression-3.1.0.RC1.jar"/>
+	<classpathentry kind="lib" path="/Users/ourkia/Downloads/Spring-OSGI/Rendu Projet Spring/lib-base/jortho.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
